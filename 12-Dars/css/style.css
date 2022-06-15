@@ -1,0 +1,244 @@
+body{
+  margin: 0;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.search{
+  padding-right: 200px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.search-bar{
+  display: flex;
+  margin-left: 10px;
+}
+
+.bi-1{
+  color: red;
+  padding: 10px;
+}
+
+.ul-1{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.bi-2{
+  color: white;
+  padding: 5px;
+}
+
+.img1{
+  margin: 10px;
+}
+
+.box{
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  justify-content: space-around;
+}
+
+.like{
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  color: red;
+  z-index: 3;
+}
+
+.all{
+  text-decoration: none;
+  color: red;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.salom2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.send{
+  position: absolute;
+  top: 35px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  left: 200px;
+  color: red;
+  z-index: 3;
+}
+
+.chegirma{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  padding: 5px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.send:hover{
+  position: absolute;
+  top: 35px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: red;
+  left: 200px;
+  color: white;
+  z-index: 3;
+}
+
+.div12{
+  margin-left: 20px;
+}
+
+.card_1{
+  border-radius: 15px;
+  position: relative;
+  display: inline;
+  margin: auto;
+  width: 18rem;
+}
+
+.card_1:hover{
+  position: relative;
+  box-shadow: 5px 5px 5px 5px grey;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 18rem;
+}
+
+.dastavka{
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  z-index: 2;
+}
+.dastavka{
+  padding: 10px;
+}
+
+.Купить1{
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.a1{
+  text-decoration: none;
+  color: black;
+}
+
+.a1:hover{
+  text-decoration: none;
+  color: red;
+}
+
+
+.p2{
+  background-color: red;
+  border-radius: 12px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.p1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-button{
+  padding: 10px;
+  background-color: black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+header{
+  padding: 20px;
+  background-color: white;
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 3;
+}
+
+.navbar_button{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.carousel{
+  margin: 10px;
+}
+
+.d-block{
+  border-radius: 32px;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+.card-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
